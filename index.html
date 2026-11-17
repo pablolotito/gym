@@ -1,6 +1,9 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rutina de Fuerza</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap">
 <style>
 /* Layout: una columna de teléfono, selector de día arriba, tarjetas de ejercicio con series tocables, temporizador de descanso abajo. */
@@ -83,7 +86,8 @@ h1,h2,h3{font-family:var(--font-head); margin:0; text-wrap:balance}
 .timer button{font:inherit; font-weight:600; min-height:44px; padding:0 16px; border-radius:10px; border:2px solid var(--accent-ink); background:transparent; color:var(--accent-ink); cursor:pointer}
 @media (prefers-reduced-motion:reduce){.bar i{transition:none}}
 </style>
-
+</head>
+<body>
 <main>
   <p class="kicker">Plan de gimnasio · 4 días</p>
   <nav class="tabs" role="tablist" aria-label="Día de entrenamiento" id="tabs"></nav>
@@ -275,4 +279,5 @@ function select(id){
 select(defaultDay());
 </script>
 
-</body></html>
+</body>
+</html>
